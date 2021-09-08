@@ -154,11 +154,13 @@ a {
   }
 
 }
-
 /* what we do */
 .wwd{
-  padding: 80px 40%;
   border: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
 }
 .wwd-title{
   font-size:26px;
@@ -170,6 +172,9 @@ a {
     /*
   padding: 0 2px;
   */
+  display: flex;
+  flex-direction: row;
+  padding: -5rem;
   text-align: center;
   font-size: 16px;
   justify-content: center;
@@ -180,15 +185,20 @@ a {
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
-  padding: 100px 20px 50px 60px;
+  padding-top: 4rem;
+  padding-left: -6rem;
+  margin-left: -2rem;
+  justify-content: space-evenly;
+  align-self: center;
+
+}
+.wwd-ul {
+  flex-grow: 1;
 }
 
-.wwd-li{
-  padding:0 0px 0px -5%;
-  margin-right: 30%;
-  display: inline-block;
+.wwd ul li{
+  margin-left: 6rem;
 }
-
 .wwd-li-t{
   font-weight: bold;
   margin: 10px 0;
